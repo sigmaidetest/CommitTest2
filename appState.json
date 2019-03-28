@@ -54,7 +54,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "CommitTest2/sub1/myfile.js",
-        "code": "let a = 1;",
+        "code": "",
         "triggers": []
       }
     },
@@ -91,7 +91,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553766159046
+    "lastSave": 1553766179402
   },
   "VCS_STATE": {
     "provider": "GitHub",
