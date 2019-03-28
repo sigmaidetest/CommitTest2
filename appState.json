@@ -1,0 +1,88 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b4e58398-d8b1-47f8-9923-1e2cc6e37136": {
+        "id": "b4e58398-d8b1-47f8-9923-1e2cc6e37136",
+        "parent": null,
+        "name": "CommitTest2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "e9f5cc50-e482-4d71-a322-7699338ae373",
+          "17a9d489-79e7-4782-b797-5a5f7d3716e2"
+        ],
+        "isRemovable": false,
+        "filePath": "CommitTest2"
+      },
+      "e9f5cc50-e482-4d71-a322-7699338ae373": {
+        "id": "e9f5cc50-e482-4d71-a322-7699338ae373",
+        "parent": "b4e58398-d8b1-47f8-9923-1e2cc6e37136",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CommitTest2/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "17a9d489-79e7-4782-b797-5a5f7d3716e2": {
+        "id": "17a9d489-79e7-4782-b797-5a5f7d3716e2",
+        "parent": "b4e58398-d8b1-47f8-9923-1e2cc6e37136",
+        "name": "sub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "CommitTest2/sub1"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "b4e58398-d8b1-47f8-9923-1e2cc6e37136",
+    "openFiles": [
+      "e9f5cc50-e482-4d71-a322-7699338ae373"
+    ],
+    "currentFileId": "e9f5cc50-e482-4d71-a322-7699338ae373",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "CommitTest2",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1553765682482
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "CommitTest2",
+      "url": "https://github.com/sigmaidetest/CommitTest2"
+    }
+  }
+}
