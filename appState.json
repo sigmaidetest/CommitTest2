@@ -44,7 +44,9 @@
         "filePath": "CommitTest2/sub1"
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "CommitTest2/sub1/hello.xml"
+    ],
     "rootNode": "b4e58398-d8b1-47f8-9923-1e2cc6e37136",
     "openFiles": [
       "e9f5cc50-e482-4d71-a322-7699338ae373"
@@ -76,7 +78,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553765682482
+    "lastSave": 1553765814768
   },
   "VCS_STATE": {
     "provider": "GitHub",
